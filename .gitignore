@@ -1,0 +1,212 @@
+# ============================================
+# FLUTTER / DART - Clean Repository .gitignore
+# ============================================
+
+# ====================
+# Build Outputs
+# ====================
+/build/
+**/build/
+*.apk
+*.aab
+*.ipa
+*.app
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ====================
+# Flutter/Dart/Pub
+# ====================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+**/doc/api/
+/coverage/
+*.dart.js
+*.js_
+*.js.deps
+*.js.map
+
+# Generated plugin registrant files (regenerated on build)
+**/GeneratedPluginRegistrant.*
+**/generated_plugin_registrant.*
+**/generated_plugins.cmake
+
+# Flutter iOS/macOS generated
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/Generated.xcconfig
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# ====================
+# Android Specific
+# ====================
+# Local properties (CONTAINS LOCAL SDK PATHS - PERSONAL INFO!)
+**/android/local.properties
+
+# Gradle
+**/android/.gradle/
+**/android/gradle-wrapper.jar
+**/.gradle/
+*.gradle.kts.swp
+
+# Build directories
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/app/.cxx/
+
+# Keystore files (SENSITIVE - NEVER COMMIT!)
+*.jks
+*.keystore
+key.properties
+keystore-base64.txt
+upload-keystore.*
+release-keystore.*
+signing-keystore.*
+**/android/app/*.jks
+**/android/key.properties
+
+# ====================
+# iOS/macOS Specific
+# ====================
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/macos/Pods/
+**/macos/.symlinks/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+**/DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ====================
+# IDE / Editor Files (CONTAIN USER PATHS!)
+# ====================
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Cursor IDE
+.cursor/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*#
+.#*
+
+# ====================
+# OS Generated Files (CONTAIN USER INFO!)
+# ====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ====================
+# Logs and Debug Files
+# ====================
+*.log
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+crash.log
+*.dill
+*.dill.track.dill
+
+# ====================
+# Miscellaneous
+# ====================
+*.class
+*.pyc
+*.pyo
+__pycache__/
+.atom/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# ====================
+# Sensitive / Personal Files
+# ====================
+# Environment files (may contain API keys)
+.env
+.env.*
+*.env
+
+# Secret files
+secrets.json
+secrets.yaml
+*.pem
+*.p12
+*.key
+
+# Google Services (contains app IDs)
+# google-services.json  # Uncomment if using Firebase
+
+# ====================
+# Test / Coverage
+# ====================
+coverage/
+.test_coverage/
+*.lcov
+
+# ====================
+# Temporary Files
+# ====================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.cache
