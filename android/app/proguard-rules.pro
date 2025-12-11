@@ -23,3 +23,7 @@
 -dontwarn org.bouncycastle.**
 -dontwarn org.openjsse.**
 
+# Google Play Core library (deferred components / split APKs)
+-dontwarn com.google.android.play.core.**
+-keep class com.google.android.play.core.** { *; }
+

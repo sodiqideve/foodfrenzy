@@ -39,10 +39,5 @@ flutter:
   
   assets:
     - assets/images/
-    - assets/images/ingredients/
-    - assets/images/obstacles/
     - assets/images/customers/
-    - assets/images/backgrounds/
     - assets/audio/
-    - assets/audio/sfx/
-    - assets/audio/music/
