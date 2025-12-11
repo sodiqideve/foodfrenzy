@@ -23,7 +23,7 @@ on:
   workflow_dispatch:  # Allow manual trigger
 
 env:
-  FLUTTER_VERSION: '3.24.0'  # Specify Flutter version
+  FLUTTER_VERSION: '3.38.1'  # Latest stable Flutter version (Dec 2025)
   JAVA_VERSION: '17'
 
 jobs:
